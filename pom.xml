@@ -27,6 +27,11 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <sourceDirectory>${basedir}/src/main/resources/antlr4</sourceDirectory>
+                    <outputDirectory>${basedir}/src/main/java/cse232b/parsers</outputDirectory>
+                    <visitor>true</visitor>
+                </configuration>
             </plugin>
         </plugins>
     </build>
